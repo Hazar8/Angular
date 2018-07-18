@@ -1,0 +1,22 @@
+.col {
+    padding: .4em 1.3em;
+}
+.color-dark {
+    background: #ff9800;
+}
+.color-light {
+    background: black;
+}
+
+.my_li{
+    font-size: 1.5em;   
+}
+
+.my_li::before{
+    content: "🕮";
+    padding-right: 10px;
+}
+
+.my_ul{
+    padding: 2em;
+}
